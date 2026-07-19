@@ -123,15 +123,4 @@ taskforge-client/            React (Vite) + Tailwind + shadcn-style UI
    socket tries to connect, the client silently calls `/auth/refresh` and
    reconnects once, mirroring the REST 401-retry interceptor.
 
-## Known gaps / good next steps
 
-- No UI for inviting workspace members yet (API exists, see step above) —
-  a natural Step 4 addition alongside a member-avatar list on the board header.
-- List reordering / adding custom lists beyond the default three isn't
-  wired up (the `List` model and position math already support it).
-- No task detail modal yet — `TaskCard`'s `onClick` prop is wired but
-  unused; a `TaskDetailDialog` (title/description/assignees/due date edit,
-  calling `taskApi.update`) is the natural next addition.
-- No automated test suite (Jest/Supertest for the API, Vitest/RTL for the
-  frontend) — worth adding before calling this fully "production-ready"
-  for a portfolio piece; interviewers will ask about test coverage.
