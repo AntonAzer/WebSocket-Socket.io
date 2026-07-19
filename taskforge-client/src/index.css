@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  TaskForge theme — deep charcoal-navy surfaces with a molten-amber accent.
+  Values follow shadcn/ui's HSL-triplet convention (no hsl() wrapper) so
+  they compose with the Tailwind config's `hsl(var(--x))` references.
+*/
+@layer base {
+  :root {
+    --background: 222 47% 6%;        /* #0B1120 */
+    --foreground: 220 30% 92%;       /* #E8ECF4 */
+
+    --card: 222 39% 10%;             /* #131B2E */
+    --card-foreground: 220 30% 92%;
+
+    --primary: 32 89% 58%;           /* amber ember */
+    --primary-foreground: 222 47% 6%;
+
+    --secondary: 222 30% 16%;
+    --secondary-foreground: 220 30% 92%;
+
+    --muted: 222 25% 16%;
+    --muted-foreground: 220 14% 62%; /* #8B93A7 */
+
+    --accent: 222 30% 16%;
+    --accent-foreground: 220 30% 92%;
+
+    --destructive: 0 72% 58%;
+    --destructive-foreground: 220 30% 96%;
+
+    --border: 222 24% 20%;           /* #232B3E */
+    --input: 222 24% 20%;
+    --ring: 32 89% 58%;
+
+    --radius: 0.625rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
