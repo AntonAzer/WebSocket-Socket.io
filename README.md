@@ -1,3 +1,8 @@
+
+# Acknowledgement For This Book: 
+<img width="492" height="696" alt="image" src="https://github.com/user-attachments/assets/b5a0bb53-c480-419d-b7f1-aaddde812c40" />
+
+
 # TaskForge — Full-Stack Project Management Platform (MERN)
 
 A Trello/Asana-style tool: Workspaces → Boards → Lists → Tasks, with JWT auth
