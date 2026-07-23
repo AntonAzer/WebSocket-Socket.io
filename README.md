@@ -7,6 +7,8 @@ Especially Chapter 12, which will solidify your understanding of real-time web a
 # How Socket.io Works (No Refresh Needed)Persistent Channel:
 A single TCP handshake opens a permanent WebSocket connection that stays alive, allowing instant bi-directional data flow.Server-Push Updates: Instead of you requesting data via refresh, the server pushes events (task:created, task:moved) directly to all connected clients in the boardRoom.Optimistic Drag-and-Drop:Your UI updates instantly when you drag a card (Optimistic UI).The app emits a task:move event over Socket.io.The server updates MongoDB and broadcasts task:moved to everyone else in the room (socket.to).Fractional Indexing: Reordering uses simple float averages ($pos_{new} = \frac{pos_1 + pos_2}{2}$), triggering a single-document DB update for ultra-low latency.
 
+<img width="975" height="755" alt="image" src="https://github.com/user-attachments/assets/12e457dc-e103-4de4-a561-dc98b2297016" />
+
 
 # TaskForge — Full-Stack Project Management Platform (MERN)
 
