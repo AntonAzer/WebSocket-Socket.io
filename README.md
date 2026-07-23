@@ -11,8 +11,10 @@ A single TCP handshake opens a permanent WebSocket connection that stays alive, 
 
 -------------------
 The Bi-directional behavior means that the connection between the client & server is Full-Duplex, client doesn't need to perform polling requests.
+
 This concepts you would be familiar with if you treated with low-level MCU befor :)
 
+-------------------
 
 # TaskForge — Full-Stack Project Management Platform (MERN)
 
