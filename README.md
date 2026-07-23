@@ -1,6 +1,10 @@
 
 # Acknowledgement For This Book: 
+Especially Chapter 12, which will solidify your understanding of real-time web applications (WebSocket).
+
 <img width="492" height="696" alt="image" src="https://github.com/user-attachments/assets/b5a0bb53-c480-419d-b7f1-aaddde812c40" />
+
+
 
 
 # TaskForge — Full-Stack Project Management Platform (MERN)
