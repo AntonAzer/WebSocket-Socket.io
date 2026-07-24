@@ -140,5 +140,8 @@ taskforge-client/            React (Vite) + Tailwind + shadcn-style UI
    handshake as `socket.handshake.auth.token`; if it's expired when the
    socket tries to connect, the client silently calls `/auth/refresh` and
    reconnects once, mirroring the REST 401-retry interceptor.
-
+   
+   ---------------
+### MongoDB Atlas DB Explorer: 
+<img width="1918" height="903" alt="image" src="https://github.com/user-attachments/assets/c8f35191-4465-45e7-8861-24e98b2bb166" />
 
